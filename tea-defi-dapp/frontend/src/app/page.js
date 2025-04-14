@@ -98,7 +98,7 @@ export default function Home() {
     <div className={styles.container}>
       <h1>Tea DeFi DApp</h1>
       {!account ? (
-        <button onClick={connectWallet}>Connect Wallet</button>
+        <button className={styles.button} onClick={connectWallet}>Connect Wallet</button>
       ) : (
         <div>
           <p>Connected Account: {account}</p>
@@ -114,7 +114,7 @@ export default function Home() {
               value={supplyAmount}
               onChange={(e) => setSupplyAmount(e.target.value)}
             />
-            <button onClick={handleSupply}>Supply</button>
+            <button className={styles.button} onClick={handleSupply}>Supply</button>
           </div>
 
           <div>
@@ -125,7 +125,7 @@ export default function Home() {
               value={borrowAmount}
               onChange={(e) => setBorrowAmount(e.target.value)}
             />
-            <button onClick={handleBorrow}>Borrow</button>
+            <button className={styles.button} onClick={handleBorrow}>Borrow</button>
           </div>
 
           <div>
@@ -136,10 +136,10 @@ export default function Home() {
               value={repayAmount}
               onChange={(e) => setRepayAmount(e.target.value)}
             />
-            <button onClick={handleRepay}>Repay</button>
+            <button className={styles.button} onClick={handleRepay}>Repay</button>
           </div>
         </div>
       )}
     </div>
   );
-                }
+}
