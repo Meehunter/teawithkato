@@ -8,12 +8,11 @@
   color: #FFFFFF;
 }
 
-h1 {
+.title {
   color: #D4E4D4;
   text-align: center;
 }
 
-/* Ubah selector 'button' menjadi class lokal '.button' */
 .button {
   background-color: #D4E4D4;
   color: #1A1A1A;
@@ -28,7 +27,7 @@ h1 {
   background-color: #A8C4A8;
 }
 
-input {
+.input {
   padding: 10px;
   margin: 10px;
   border: 1px solid #D4E4D4;
@@ -37,6 +36,6 @@ input {
   color: #1A1A1A;
 }
 
-div {
+.section {
   margin-bottom: 20px;
 }
