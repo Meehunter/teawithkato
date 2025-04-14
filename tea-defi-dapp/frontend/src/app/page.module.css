@@ -13,7 +13,8 @@ h1 {
   text-align: center;
 }
 
-button {
+/* Ubah selector 'button' menjadi class lokal '.button' */
+.button {
   background-color: #D4E4D4;
   color: #1A1A1A;
   padding: 10px 20px;
@@ -23,7 +24,7 @@ button {
   margin: 10px;
 }
 
-button:hover {
+.button:hover {
   background-color: #A8C4A8;
 }
 
